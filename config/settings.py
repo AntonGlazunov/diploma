@@ -9,11 +9,14 @@ https://docs.djangoproject.com/en/5.0/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.0/ref/settings/
 """
-
+import json
 import os.path
 from pathlib import Path
-
+import networkx as nx
 from dotenv import load_dotenv
+
+from content.models import Movie
+from users.models import User
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -161,3 +164,13 @@ if CACHE_ENABLE:
             "LOCATION": os.getenv('CACHES_LOCATION'),
         }
     }
+
+try:
+    with open('graph.json', 'r', encoding='utf-8') as f:
+        json_graph = json.load(f)
+    GRAPH = nx.node_link_graph(json_graph, edges='edges')
+except FileNotFoundError:
+    GRAPH = nx.DiGraph()
+
+
+DEFAULT_CHARSET='utf-8'

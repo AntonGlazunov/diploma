@@ -8,13 +8,17 @@ from django.utils.encoding import force_bytes
 from django.utils.http import urlsafe_base64_encode, urlsafe_base64_decode
 from django.views import View
 from django.views.generic import CreateView, UpdateView, ListView
-from users.forms import UserRegisterForm, UserProfileForm, UserForgotPasswordForm, UserAuthenticationForm, UserModerForm
+
+from config.settings import GRAPH
+from users.forms import UserRegisterForm, UserProfileForm, UserForgotPasswordForm, UserAuthenticationForm, \
+    UserModerForm, UserPreferencesForm
 from users.models import User
+
 
 class RegisterView(CreateView):
     model = User
     form_class = UserRegisterForm
-    template_name = 'user/register.html'
+    template_name = 'users/register.html'
 
     def form_valid(self, form):
         user = form.save(commit=False)
@@ -50,6 +54,7 @@ class UserConfirmEmailView(View):
             user.is_active = True
             user.save()
             login(request, user)
+            GRAPH.add_node(user.pk)
             return redirect('users:email_confirmed')
         else:
             return redirect('users:email_confirmation_failed')
@@ -102,6 +107,15 @@ def password_confirmation_failed(request):
 class ProfileView(UpdateView):
     model = User
     form_class = UserProfileForm
+    success_url = reverse_lazy('content:content_list')
+
+    def get_object(self, queryset=None):
+        return self.request.user
+
+
+class PreferencesView(UpdateView):
+    model = User
+    form_class = UserPreferencesForm
     success_url = reverse_lazy('content:content_list')
 
     def get_object(self, queryset=None):

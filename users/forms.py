@@ -118,3 +118,9 @@ class UserModerForm(StyleFormMixin, forms.ModelForm):
         model = User
         fields = ('is_block',)
 
+
+class UserPreferencesForm(StyleFormMixin, forms.ModelForm):
+    class Meta:
+        model = User
+        fields = ('preferences',)
+

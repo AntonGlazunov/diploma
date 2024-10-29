@@ -1,18 +1,18 @@
-{% extends 'catalog/base.html' %}
+{% extends 'content/base.html' %}
 
 {% block content %}
+{% for object in object_list %}
 <div class="col">
     <div class="card shadow-sm">
         <div class="card-body">
-            <p class="card-text"> Начало рассылки: , Окончание рассылки: </p>
+            <p class="card-text"> {{ object.name }} </p>
             <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                    <a class="btn btn-sm btn-outline-secondary" href="#">Посмотреть</a>
+                    <a class="btn btn-sm btn-outline-secondary" href="{% url 'content:detail_content' object.pk %}">Посмотреть</a>
                 </div>
             </div>
         </div>
     </div>
 </div>
-{% endif %}
 {% endfor %}
 {% endblock %}

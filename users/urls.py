@@ -4,7 +4,7 @@ from django.urls import path
 from users.apps import UsersConfig
 from users.views import RegisterView, ProfileView, email_confirmation_sent, UserConfirmEmailView, email_confirmed, \
     email_confirmation_failed, UserForgotPasswordView, UserPasswordResetConfirmView, password_confirmed, \
-    password_confirmation_failed, UserLoginView, UserListView, UserUpdateView
+    password_confirmation_failed, UserLoginView, UserListView, UserUpdateView, PreferencesView
 
 app_name = UsersConfig.name
 #
@@ -23,4 +23,5 @@ urlpatterns = [
     path('confirm-password-failed/', password_confirmation_failed, name='password_confirmation_failed'),
     path('user_list/', UserListView.as_view(), name='user_list'),
     path('user_update/<int:pk>', UserUpdateView.as_view(), name='user_update'),
+    path('user-add-preferences/', PreferencesView.as_view(template_name='users/user_form.html'), name='add_preferences')
 ]

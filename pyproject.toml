@@ -13,6 +13,8 @@ redis = "^5.1.1"
 psycopg2 = "^2.9.10"
 pillow = "^11.0.0"
 pytils = "^0.4.1"
+networkx = "^3.4.2"
+matplotlib = "^3.9.2"
 
 
 

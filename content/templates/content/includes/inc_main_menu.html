@@ -11,9 +11,14 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page"
                            href="{% url 'users:logout' %}">Выйти</a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="{% url 'users:profile' %}">Редактировать
                             профиль</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page"
+                           href="{% url 'users:add_preferences' %}"> Добавить предпочтения </a>
                     </li>
                     {% else %}
                     <li class="nav-item">

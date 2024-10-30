@@ -10,8 +10,7 @@ from django.views import View
 from django.views.generic import CreateView, UpdateView, ListView
 
 from config.settings import GRAPH
-from users.forms import UserRegisterForm, UserProfileForm, UserForgotPasswordForm, UserAuthenticationForm, \
-    UserModerForm, UserPreferencesForm
+from users.forms import UserRegisterForm, UserProfileForm, UserForgotPasswordForm, UserAuthenticationForm, UserPreferencesForm
 from users.models import User
 
 
@@ -116,7 +115,7 @@ class ProfileView(UpdateView):
 class PreferencesView(UpdateView):
     model = User
     form_class = UserPreferencesForm
-    success_url = reverse_lazy('content:content_list')
+    success_url = reverse_lazy('content:recommended_list')
 
     def get_object(self, queryset=None):
         return self.request.user
@@ -124,14 +123,3 @@ class PreferencesView(UpdateView):
 
 class UserLoginView(LoginView):
     form_class = UserAuthenticationForm
-
-
-class UserListView(ListView):
-    model = User
-
-
-class UserUpdateView(UpdateView):
-    model = User
-    form_class = UserModerForm
-    template_name = 'users/user_form.html'
-    success_url = reverse_lazy('content:content_list')

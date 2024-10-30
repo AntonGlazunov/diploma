@@ -1,5 +1,6 @@
 from django.core.management import BaseCommand
 
+from config.settings import GRAPH
 from users.models import User
 
 

@@ -1,0 +1,3191 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-10-29T16:45:28.168Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Комедия",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-10-29T16:45:40.297Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Ужасы",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2024-10-29T16:45:53.123Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Фантастика",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2024-10-29T16:46:02.344Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Триллер",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2024-10-29T16:46:35.120Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Боевики",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2024-10-29T16:46:48.003Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "Мелодрамы",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2024-10-29T16:46:53.455Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "Детективы",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2024-10-29T16:47:02.947Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "Приключения",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2024-10-29T16:47:12.374Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "Фэнтези",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2024-10-29T16:47:17.471Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "10",
+    "object_repr": "Военные",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2024-10-29T16:47:26.418Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "11",
+    "object_repr": "Семейн",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2024-10-29T16:47:42.720Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "12",
+    "object_repr": "Исторические",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2024-10-29T16:47:55.612Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "13",
+    "object_repr": "Драмы",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2024-10-29T16:48:02.299Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "14",
+    "object_repr": "Документальные",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2024-10-29T16:48:09.564Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "15",
+    "object_repr": "Детские",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2024-10-29T16:48:25.157Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "16",
+    "object_repr": "Криминал",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2024-10-29T16:48:34.661Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "17",
+    "object_repr": "Биографии",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2024-10-29T16:48:45.032Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "18",
+    "object_repr": "Вестерны",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2024-10-29T16:49:09.381Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "11",
+    "object_repr": "Семейные",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0438\\u043c\\u0435\\u043d\\u043e\\u0432\\u0430\\u043d\\u0438\\u0435\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2024-10-29T16:52:00.475Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Один дома fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2024-10-29T16:53:09.081Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Холоп 2 fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2024-10-29T16:54:03.393Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Иван Васильевич меняет профессию fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2024-10-29T17:38:22.772Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Беспринципные se content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2024-10-29T17:38:53.914Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Холоп fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2024-10-29T17:39:23.834Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Поезд в Пусан fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2024-10-29T17:39:56.131Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Очень странные дела se content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2024-10-29T17:40:28.318Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Я – легенда fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2024-10-29T17:40:55.204Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "Ходячие мертвецы se content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2024-10-29T17:41:27.856Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "Оно fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2024-10-29T17:42:27.168Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "11",
+    "object_repr": "Аватар fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2024-10-29T17:42:49.958Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "12",
+    "object_repr": "Интерстеллар fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2024-10-29T17:43:23.921Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "13",
+    "object_repr": "Начало fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2024-10-29T17:43:47.325Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "14",
+    "object_repr": "Мстители: Война бесконечности fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2024-10-29T17:44:12.668Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "15",
+    "object_repr": "Мстители: Финал fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2024-10-29T17:44:52.298Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "16",
+    "object_repr": "Остров проклятых fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2024-10-29T17:46:44.607Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "17",
+    "object_repr": "Бойцовский клуб fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2024-10-29T17:47:13.371Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "18",
+    "object_repr": "Области тьмы fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2024-10-29T17:47:40.641Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "19",
+    "object_repr": "Пищеблок se content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2024-10-29T17:48:02.588Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "20",
+    "object_repr": "Исчезнувшая fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2024-10-29T17:48:56.817Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "21",
+    "object_repr": "Гнев человеческий fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2024-10-29T17:49:22.699Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "22",
+    "object_repr": "Брат 2 fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2024-10-29T17:50:03.345Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "23",
+    "object_repr": "Переводчик fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2024-10-29T17:50:27.401Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "24",
+    "object_repr": "Леон fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2024-10-29T17:50:49.735Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "25",
+    "object_repr": "Операция «Фортуна»: Искусство побеждать fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2024-10-29T17:51:11.697Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "26",
+    "object_repr": "Любовь и голуби fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2024-10-29T17:51:40.863Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "27",
+    "object_repr": "Титаник fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2024-10-29T17:52:01.920Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "28",
+    "object_repr": "Постучись в мою дверь se content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2024-10-29T17:52:24.860Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "29",
+    "object_repr": "Москва слезам не верит fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2024-10-29T17:52:42.660Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "30",
+    "object_repr": "Девчата fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2024-10-29T17:53:41.637Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "31",
+    "object_repr": "Достать ножи fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2024-10-29T17:54:14.179Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "32",
+    "object_repr": "Вампиры средней полосы se content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2024-10-29T17:54:47.073Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "33",
+    "object_repr": "Фишер se content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2024-10-29T17:55:21.503Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "34",
+    "object_repr": "Шерлок se content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2024-10-29T17:55:43.575Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "35",
+    "object_repr": "Внутри убийцы se content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2024-10-29T17:56:05.078Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "36",
+    "object_repr": "Мажор в Сочи fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2024-10-29T17:56:30.265Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "37",
+    "object_repr": "Пираты Карибского моря: На краю света fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2024-10-29T17:57:15.922Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "38",
+    "object_repr": "Выживший fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2024-10-29T17:57:52.968Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "39",
+    "object_repr": "Пираты Карибского моря: На странных берегах fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2024-10-29T17:58:17.094Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "40",
+    "object_repr": "Лекарь: Ученик Авиценны fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2024-10-29T18:28:14.069Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "41",
+    "object_repr": "Игра престолов se content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2024-10-29T18:28:49.520Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "42",
+    "object_repr": "По щучьему велению fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2024-10-29T18:29:40.314Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "43",
+    "object_repr": "Гарри Поттер и философский камень fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2024-10-29T18:30:11.968Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "44",
+    "object_repr": "Пираты Карибского моря: Проклятие Черной жемчужины fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2024-10-29T18:30:38.385Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "45",
+    "object_repr": "Гарри Поттер и узник Азкабана fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2024-10-29T18:31:02.951Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "46",
+    "object_repr": "В бой идут одни «старики» fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2024-10-29T18:31:50.900Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "47",
+    "object_repr": "Своя война. Шторм в пустыне fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2024-10-29T18:32:36.807Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "48",
+    "object_repr": "Спасти рядового Райана fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2024-10-29T18:33:15.760Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "49",
+    "object_repr": "Битва за Севастополь fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2024-10-29T18:33:51.803Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "50",
+    "object_repr": "Подольские курсанты fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2024-10-29T18:51:18.445Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "51",
+    "object_repr": "Чебурашка fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2024-10-29T18:51:52.579Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "52",
+    "object_repr": "Домовой fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2024-10-29T18:52:32.062Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "53",
+    "object_repr": "Королевство полной луны fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2024-10-29T18:52:59.996Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "54",
+    "object_repr": "Счастье в конверте fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2024-10-29T19:17:54.400Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "55",
+    "object_repr": "Мой любимый чемпион fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2024-10-29T19:18:38.291Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "56",
+    "object_repr": "Гладиатор fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2024-10-29T19:32:34.725Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "57",
+    "object_repr": "Викинги se content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2024-10-29T19:33:21.809Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "58",
+    "object_repr": "Храброе сердце fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2024-10-29T19:33:52.030Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "59",
+    "object_repr": "Высшая мера fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2024-10-29T19:34:20.396Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "60",
+    "object_repr": "Таксист fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 80,
+  "fields": {
+    "action_time": "2024-10-29T19:35:26.287Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "61",
+    "object_repr": "1+1 fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 81,
+  "fields": {
+    "action_time": "2024-10-29T19:35:55.551Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "62",
+    "object_repr": "Брат fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 82,
+  "fields": {
+    "action_time": "2024-10-29T19:36:22.348Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "63",
+    "object_repr": "Волк с Уолл-стрит fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 83,
+  "fields": {
+    "action_time": "2024-10-29T19:36:53.346Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "64",
+    "object_repr": "Триггер se content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 84,
+  "fields": {
+    "action_time": "2024-10-29T19:37:16.068Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "65",
+    "object_repr": "Побег из Шоушенка fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 85,
+  "fields": {
+    "action_time": "2024-10-29T19:37:44.834Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "66",
+    "object_repr": "Гарри Поттер 20 лет спустя: Возвращение в Хогвартс fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 86,
+  "fields": {
+    "action_time": "2024-10-29T19:38:06.863Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "67",
+    "object_repr": "Романовы fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 87,
+  "fields": {
+    "action_time": "2024-10-29T19:38:46.399Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "68",
+    "object_repr": "Великая война se content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 88,
+  "fields": {
+    "action_time": "2024-10-29T19:39:06.615Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "69",
+    "object_repr": "Сахар fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 89,
+  "fields": {
+    "action_time": "2024-10-29T19:39:35.588Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "70",
+    "object_repr": "Огненный лис fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 90,
+  "fields": {
+    "action_time": "2024-10-29T19:40:41.459Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "71",
+    "object_repr": "Джентльмены fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 91,
+  "fields": {
+    "action_time": "2024-10-29T19:42:07.268Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "72",
+    "object_repr": "Легенда №17 fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 92,
+  "fields": {
+    "action_time": "2024-10-29T19:43:41.835Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "73",
+    "object_repr": "Криминальное чтиво fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 93,
+  "fields": {
+    "action_time": "2024-10-29T19:44:26.143Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "74",
+    "object_repr": "Поймай меня, если сможешь fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 94,
+  "fields": {
+    "action_time": "2024-10-29T19:44:56.097Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "75",
+    "object_repr": "Иллюзия обмана fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 95,
+  "fields": {
+    "action_time": "2024-10-29T19:45:21.881Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "76",
+    "object_repr": "Зеленая книга fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 96,
+  "fields": {
+    "action_time": "2024-10-29T19:46:02.477Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "77",
+    "object_repr": "Ford против Ferrari fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 97,
+  "fields": {
+    "action_time": "2024-10-29T19:46:36.240Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "78",
+    "object_repr": "Игры разума fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 98,
+  "fields": {
+    "action_time": "2024-10-29T19:46:57.504Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "79",
+    "object_repr": "Богемская рапсодия fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 99,
+  "fields": {
+    "action_time": "2024-10-29T19:49:23.224Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "80",
+    "object_repr": "Джанго освобожденный fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 100,
+  "fields": {
+    "action_time": "2024-10-29T19:50:36.210Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "81",
+    "object_repr": "Омерзительная восьмерка fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 101,
+  "fields": {
+    "action_time": "2024-10-29T19:52:17.920Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "82",
+    "object_repr": "Железная хватка fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 102,
+  "fields": {
+    "action_time": "2024-10-29T19:52:50.258Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "83",
+    "object_repr": "Хороший, плохой, злой fi content.Category.None",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 4,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 4,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 4,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 4,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 5,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 5,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 5,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 5,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add Пользователь",
+    "content_type": 6,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change Пользователь",
+    "content_type": 6,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete Пользователь",
+    "content_type": 6,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view Пользователь",
+    "content_type": 6,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Блокировка пользователей",
+    "content_type": 6,
+    "codename": "set_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can add Контент",
+    "content_type": 7,
+    "codename": "add_movie"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can change Контент",
+    "content_type": 7,
+    "codename": "change_movie"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can delete Контент",
+    "content_type": 7,
+    "codename": "delete_movie"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can view Контент",
+    "content_type": 7,
+    "codename": "view_movie"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can add Жанр",
+    "content_type": 8,
+    "codename": "add_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can change Жанр",
+    "content_type": 8,
+    "codename": "change_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can delete Жанр",
+    "content_type": 8,
+    "codename": "delete_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can view Жанр",
+    "content_type": 8,
+    "codename": "view_category"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "users",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "content",
+    "model": "movie"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "content",
+    "model": "category"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "9lxyz4n6rlcl0a91o7ad355tvnvg10j6",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hA6ZKbFpXvPQGAYpGogKe3KeHdt0oVu_3vvv5QP21r81mXxc1JnNajT7xYDP6TuIN1DvTXNra7LHPWu6IN2fW1JnpfD_TsooZdvTZyFGExwPCFlSQEZCMREZyhamzjZTGBJkBAHjBDBGTMBwshCo3p_APVZN58:1t5APl:n-HfOMd1eY5mCFn3SbuqCxzbR97Nn2EoQgw4vr0hkf0",
+    "expire_date": "2024-11-10T21:03:09.656Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "hm2vldr76klmh093peb3q0r77jdnoe3l",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSGUKTDj0r3fQIZHpWogKe3K-O_apAvd3nPOfQnP21r81vPi5yTOwojT7xY4PnLdQbpzvTUZW12XOchdkQft8tpSfl4O9--gcC_fetKDHQNa0E4PRKy0AgSMgI4dG3boItk0KmYky6BMBjuRiUQIGa14fwCpADZ5:1t6Fit:728P5W4gbMhWWSih1Zs8k5ADZBQ6deO6T-HdQ98Nrk8",
+    "expire_date": "2024-11-13T20:55:23.878Z"
+  }
+},
+{
+  "model": "users.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$vygcoNr56SIXOaaVY1Pp85$L/5XBz6NsNS2zd0tZ1Kejgn9h12GZHtKmCnSa3EYvbE=",
+    "last_login": "2024-10-27T21:03:09.653Z",
+    "is_superuser": true,
+    "first_name": "Admin",
+    "last_name": "Kr_py",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-10-27T21:02:52.444Z",
+    "email": "admin@mail.com",
+    "phone": null,
+    "avatar": "",
+    "country": null,
+    "is_block": false,
+    "groups": [],
+    "user_permissions": [],
+    "preferences": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$YgUrOShAewpq1Qsfq95yXU$MmvJdIsYOyk+RiHMv0553onzS+/O0jIu2Dqy8lhy5PY=",
+    "last_login": "2024-10-29T20:34:11.733Z",
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-10-29T20:33:49.559Z",
+    "email": "tagl91@yandex.ru",
+    "phone": null,
+    "avatar": "",
+    "country": null,
+    "is_block": false,
+    "groups": [],
+    "user_permissions": [],
+    "preferences": [
+      8,
+      9,
+      4
+    ]
+  }
+},
+{
+  "model": "users.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$78l7DYAKOMPm4ArfJa61UA$XnuKX/WASjPfB/ycQn8VaREVcRDRMNDztNHmbqF6dK4=",
+    "last_login": "2024-10-30T14:28:02.567Z",
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-10-29T23:24:20.143Z",
+    "email": "test@mail.com",
+    "phone": null,
+    "avatar": "",
+    "country": null,
+    "is_block": false,
+    "groups": [],
+    "user_permissions": [],
+    "preferences": [
+      2,
+      3,
+      4
+    ]
+  }
+},
+{
+  "model": "users.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$16V3oeEquC6iRjpfjksvDT$3w2QjD6L0okW0VKNpq7MMdS3eURpwLK5HGhwGMt0ylU=",
+    "last_login": "2024-10-30T18:39:18.712Z",
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-10-29T23:24:21.966Z",
+    "email": "test1@mail.com",
+    "phone": null,
+    "avatar": "",
+    "country": null,
+    "is_block": false,
+    "groups": [],
+    "user_permissions": [],
+    "preferences": [
+      9,
+      4
+    ]
+  }
+},
+{
+  "model": "users.user",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$7GeHD5MSBoTxM1heweUeEo$iXEnKvDHWzI0eK29qqsYJm1o/Kem9eAxf8FlXyCmFkE=",
+    "last_login": "2024-10-30T20:55:23.874Z",
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-10-29T23:24:22.963Z",
+    "email": "test2@mail.com",
+    "phone": null,
+    "avatar": "",
+    "country": null,
+    "is_block": false,
+    "groups": [],
+    "user_permissions": [],
+    "preferences": [
+      17,
+      18
+    ]
+  }
+},
+{
+  "model": "users.user",
+  "pk": 6,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$8vqklMg8x9OrGe8l0OASIQ$7Mt1jV5sFYEhJvTKrcGFesAkdvXoHw37hlQ2cOXdZ8Q=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-10-29T23:24:23.701Z",
+    "email": "test3@mail.com",
+    "phone": null,
+    "avatar": "",
+    "country": null,
+    "is_block": false,
+    "groups": [],
+    "user_permissions": [],
+    "preferences": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 7,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$Fj4cHCpYaGIliT7Zyh5XYG$nQGhE4L+/PDw0+GksHdnMfuWFqI2sDNkO0wYYxzPjmQ=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-10-29T23:24:24.618Z",
+    "email": "test4@mail.com",
+    "phone": null,
+    "avatar": "",
+    "country": null,
+    "is_block": false,
+    "groups": [],
+    "user_permissions": [],
+    "preferences": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 8,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$aikj8xF47k4UEIf9GtXPIO$Pqy6IoOjtv7iC37qoYmLYlV9kZ81WQY1KCZsWVxM4Kc=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-10-29T23:24:25.679Z",
+    "email": "test5@mail.com",
+    "phone": null,
+    "avatar": "",
+    "country": null,
+    "is_block": false,
+    "groups": [],
+    "user_permissions": [],
+    "preferences": []
+  }
+},
+{
+  "model": "content.category",
+  "pk": 1,
+  "fields": {
+    "name": "Комедия"
+  }
+},
+{
+  "model": "content.category",
+  "pk": 2,
+  "fields": {
+    "name": "Ужасы"
+  }
+},
+{
+  "model": "content.category",
+  "pk": 3,
+  "fields": {
+    "name": "Фантастика"
+  }
+},
+{
+  "model": "content.category",
+  "pk": 4,
+  "fields": {
+    "name": "Триллер"
+  }
+},
+{
+  "model": "content.category",
+  "pk": 5,
+  "fields": {
+    "name": "Боевики"
+  }
+},
+{
+  "model": "content.category",
+  "pk": 6,
+  "fields": {
+    "name": "Мелодрамы"
+  }
+},
+{
+  "model": "content.category",
+  "pk": 7,
+  "fields": {
+    "name": "Детективы"
+  }
+},
+{
+  "model": "content.category",
+  "pk": 8,
+  "fields": {
+    "name": "Приключения"
+  }
+},
+{
+  "model": "content.category",
+  "pk": 9,
+  "fields": {
+    "name": "Фэнтези"
+  }
+},
+{
+  "model": "content.category",
+  "pk": 10,
+  "fields": {
+    "name": "Военные"
+  }
+},
+{
+  "model": "content.category",
+  "pk": 11,
+  "fields": {
+    "name": "Семейные"
+  }
+},
+{
+  "model": "content.category",
+  "pk": 12,
+  "fields": {
+    "name": "Исторические"
+  }
+},
+{
+  "model": "content.category",
+  "pk": 13,
+  "fields": {
+    "name": "Драмы"
+  }
+},
+{
+  "model": "content.category",
+  "pk": 14,
+  "fields": {
+    "name": "Документальные"
+  }
+},
+{
+  "model": "content.category",
+  "pk": 15,
+  "fields": {
+    "name": "Детские"
+  }
+},
+{
+  "model": "content.category",
+  "pk": 16,
+  "fields": {
+    "name": "Криминал"
+  }
+},
+{
+  "model": "content.category",
+  "pk": 17,
+  "fields": {
+    "name": "Биографии"
+  }
+},
+{
+  "model": "content.category",
+  "pk": 18,
+  "fields": {
+    "name": "Вестерны"
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 1,
+  "fields": {
+    "name": "Один дома",
+    "description": "Американское семейство отправляется из Чикаго в Европу, но в спешке сборов бестолковые родители забывают дома... одного из своих детей. Юное создание, однако, не теряется и демонстрирует чудеса изобретательности. И когда в дом залезают грабители, им приходится не раз пожалеть о встрече с милым крошкой.",
+    "view_movies": "fi",
+    "category": [
+      1,
+      11
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 2,
+  "fields": {
+    "name": "Холоп 2",
+    "description": "Гриша, бывший мажор, побывавший холопом и ставший человеком, после путешествия в «прошлое» чутко реагирует на любую несправедливость. И, конечно, не может пройти мимо беспредела, который творит наглая и избалованная Катя. Ничего удивительного, что вскоре мажорка обнаруживает себя в другом времени.",
+    "view_movies": "fi",
+    "category": [
+      1
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 3,
+  "fields": {
+    "name": "Иван Васильевич меняет профессию",
+    "description": "Инженер-изобретатель Тимофеев сконструировал машину времени, которая соединила его квартиру с XVI веком — точнее, с палатами государя Ивана Грозного. Туда-то и попадают тёзка царя пенсионер-общественник Иван Васильевич Бунша и квартирный вор Жорж Милославский, а сам великий государь оказывается в квартире Тимофеева.",
+    "view_movies": "fi",
+    "category": [
+      8,
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 4,
+  "fields": {
+    "name": "Беспринципные",
+    "description": "Добро пожаловать на Патриаршие. Смешные и волнующие подробности личной жизни богатых москвичей, которые, как и все, попадают в неловкие ситуации. Правда, ситуации у них не самые обычные... Жена чувствует себя виноватой, познакомившись с любовницей мужа. Муж прикрывается выдуманной дочерью друга. А друг толкает помощника на измену, потому что так хочет жена. И это только начало. Одним словом, неприличные истории о приличных, казалось бы, людях.",
+    "view_movies": "se",
+    "category": [
+      1
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 5,
+  "fields": {
+    "name": "Холоп",
+    "description": "27-летний московский мажор Григорий ошалел от безнаказанности. Богатый папа стабильно его отмазывает, да так, что уже обновил автопарк и оборудование отделению полиции, где служит начальником его друг. После очередной выходки терпение отца иссякает, и он обращается к психологу, практикующему шоковые методы воздействия на пациентов.\r\n\r\nВскоре сынуля попадает в аварию и приходит в себя на деревенской конюшне. На дворе — Россия 1860 года, а сам он — бесправный конюх Гришка, которому за любую провинность и ослушание всегда готовы всыпать плетей, а то и вздёрнуть на глазах у всего честного народа.",
+    "view_movies": "fi",
+    "category": [
+      1,
+      6
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 6,
+  "fields": {
+    "name": "Поезд в Пусан",
+    "description": "У маленькой Су-ан день рождения. Девочка живет с отцом в Сеуле и очень хочет отправиться к маме в Пусан. По дороге случается непредвиденное, и на страну обрушивается загадочный вирус. Пассажирам поезда в Пусан — единственного города, отразившего атаки вируса — придется бороться за выживание. 442 километра в пути. Добро пожаловать на борт и помните — в этой гонке недостаточно выжить, чтобы остаться человеком.",
+    "view_movies": "fi",
+    "category": [
+      2,
+      5
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 7,
+  "fields": {
+    "name": "Очень странные дела",
+    "description": "1980-е годы, тихий провинциальный американский городок. Благоприятное течение местной жизни нарушает загадочное исчезновение подростка по имени Уилл. Выяснить обстоятельства дела полны решимости родные мальчика и местный шериф, также события затрагивают лучшего друга Уилла – Майка. Он начинает собственное расследование. Майк уверен, что близок к разгадке, и теперь ему предстоит оказаться в эпицентре ожесточенной битвы потусторонних сил.",
+    "view_movies": "se",
+    "category": [
+      2,
+      3,
+      4,
+      7,
+      9,
+      13
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 8,
+  "fields": {
+    "name": "Я – легенда",
+    "description": "Неизвестный вирус унёс жизни половины населения земного шара, а остальную половину превратил в вампиров. Единственный уцелевший человек с иммунитетом к заболеванию ночами держит осаду упырей, а днем пытается найти противоядие и докопаться до причин эпидемии.",
+    "view_movies": "fi",
+    "category": [
+      2,
+      3,
+      4,
+      5,
+      13
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 9,
+  "fields": {
+    "name": "Ходячие мертвецы",
+    "description": "Зомби-эпидемия захлестнула планету. Шериф Рик Граймс путешествует с семьей и небольшой группой выживших в поисках безопасного места. Но постоянный страх смерти каждый день приносит тяжелые потери, заставляя товарищей по несчастью чувствовать глубины человеческой жестокости. Рик пытается спасти близких и понимает, что всепоглощающий страх людей может быть опаснее ходячих мертвецов.",
+    "view_movies": "se",
+    "category": [
+      2,
+      4,
+      13
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 10,
+  "fields": {
+    "name": "Оно",
+    "description": "Когда в городке Дерри штата Мэн начинают пропадать дети, несколько ребят сталкиваются со своими величайшими страхами — не только с группой школьных хулиганов, но со злобным клоуном Пеннивайзом, список жертв которого уходит вглубь веков.",
+    "view_movies": "fi",
+    "category": [
+      9,
+      2,
+      13,
+      7
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 11,
+  "fields": {
+    "name": "Аватар",
+    "description": "Бывший морпех Джейк Салли прикован к инвалидному креслу. Несмотря на немощное тело, Джейк в душе по-прежнему остается воином. Он получает задание совершить путешествие в несколько световых лет к базе землян на планете Пандора, где корпорации добывают редкий минерал, имеющий огромное значение для выхода Земли из энергетического кризиса.",
+    "view_movies": "fi",
+    "category": [
+      8,
+      13,
+      3,
+      5
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 12,
+  "fields": {
+    "name": "Интерстеллар",
+    "description": "Когда засуха, пыльные бури и вымирание растений приводят человечество к продовольственному кризису, коллектив исследователей и учёных отправляется сквозь червоточину (которая предположительно соединяет области пространства-времени через большое расстояние) в путешествие, чтобы превзойти прежние ограничения для космических путешествий человека и найти планету с подходящими для человечества условиями.",
+    "view_movies": "fi",
+    "category": [
+      8,
+      3,
+      13
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 13,
+  "fields": {
+    "name": "Начало",
+    "description": "Кобб – талантливый вор, лучший из лучших в опасном искусстве извлечения: он крадет ценные секреты из глубин подсознания во время сна, когда человеческий разум наиболее уязвим. Редкие способности Кобба сделали его ценным игроком в привычном к предательству мире промышленного шпионажа, но они же превратили его в извечного беглеца и лишили всего, что он когда-либо любил.\r\n\r\nИ вот у Кобба появляется шанс исправить ошибки. Его последнее дело может вернуть все назад, но для этого ему нужно совершить невозможное – инициацию. Вместо идеальной кражи Кобб и его команда спецов должны будут провернуть обратное. Теперь их задача – не украсть идею, а внедрить ее. Если у них получится, это и станет идеальным преступлением.\r\n\r\nНо никакое планирование или мастерство не могут подготовить команду к встрече с опасным противником, который, кажется, предугадывает каждый их ход. Врагом, увидеть которого мог бы лишь Кобб.",
+    "view_movies": "fi",
+    "category": [
+      3,
+      4,
+      5,
+      7,
+      13
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 14,
+  "fields": {
+    "name": "Мстители: Война бесконечности",
+    "description": "Пока Мстители и их союзники продолжают защищать мир от различных опасностей, с которыми не смог бы справиться один супергерой, новая угроза возникает из космоса: Танос. Межгалактический тиран преследует цель собрать все шесть Камней Бесконечности - артефакты невероятной силы, с помощью которых можно менять реальность по своему желанию. Всё, с чем Мстители сталкивались ранее, вело к этому моменту – судьба Земли никогда ещё не была столь неопределённой.",
+    "view_movies": "fi",
+    "category": [
+      8,
+      3,
+      5
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 15,
+  "fields": {
+    "name": "Мстители: Финал",
+    "description": "Оставшиеся в живых члены команды Мстителей и их союзники должны разработать новый план, который поможет противостоять разрушительным действиям могущественного титана Таноса. После наиболее масштабной и трагической битвы в истории они не могут допустить ошибку.",
+    "view_movies": "fi",
+    "category": [
+      8,
+      13,
+      3,
+      5
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 16,
+  "fields": {
+    "name": "Остров проклятых",
+    "description": "Два американских судебных пристава отправляются на один из островов в штате Массачусетс, чтобы расследовать исчезновение пациентки клиники для умалишенных преступников. При проведении расследования им придется столкнуться с паутиной лжи, обрушившимся ураганом и смертельным бунтом обитателей клиники.",
+    "view_movies": "fi",
+    "category": [
+      4,
+      13,
+      7
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 17,
+  "fields": {
+    "name": "Бойцовский клуб",
+    "description": "Сотрудник страховой компании страдает хронической бессонницей и отчаянно пытается вырваться из мучительно скучной жизни. Однажды в очередной командировке он встречает некоего Тайлера Дёрдена — харизматического торговца мылом с извращенной философией. Тайлер уверен, что самосовершенствование — удел слабых, а единственное, ради чего стоит жить, — саморазрушение.\r\n\r\nПроходит немного времени, и вот уже новые друзья лупят друг друга почем зря на стоянке перед баром, и очищающий мордобой доставляет им высшее блаженство. Приобщая других мужчин к простым радостям физической жестокости, они основывают тайный Бойцовский клуб, который начинает пользоваться невероятной популярностью.",
+    "view_movies": "fi",
+    "category": [
+      16,
+      4,
+      13
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 18,
+  "fields": {
+    "name": "Области тьмы",
+    "description": "Нью-йоркский писатель Эдди, желая преодолеть чёрную полосу в жизни, принимает засекреченный препарат под названием NZT. Таблетка выводит мозг парня на работу в нереальной мощности. Этот творческий наркотик меняет всю жизнь Эдди, за короткий срок он зарабатывает кучу денег, но скоро начинает страдать от зловещих побочных эффектов препарата. А когда пытается найти других NZT-гениев, чтобы понять, как можно справиться с этим пристрастием, он узнает страшную правду…",
+    "view_movies": "fi",
+    "category": [
+      3,
+      4,
+      13
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 19,
+  "fields": {
+    "name": "Пищеблок",
+    "description": "Пока вся страна следит за Олимпиадой-80, в пионерском лагере «Буревестник» на Волге происходят странные события. Дети загадочно исчезают по ночам, а потом возвращаются — но совсем не такими, как прежде. Увлеченные летней свободой и друг другом вожатые не замечают, как в их отрядах оживают страшные пионерские легенды, а руководство лагеря делает вид, что все в порядке. Разбираться в тайнах «Буревестника» придется мальчику Валерке и вожатому Игорю. Для начала им предстоит понять, остался ли в лагере хоть кто-то, кому можно доверять.",
+    "view_movies": "se",
+    "category": [
+      9,
+      4,
+      7
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 20,
+  "fields": {
+    "name": "Исчезнувшая",
+    "description": "Всё было готово для празднования пятилетия супружеской жизни, когда вдруг необъяснимо пропала виновница торжества. Остались следы борьбы в доме, кровь, которую явно пытались стереть, и цепочка подсказок в игре «охота за сокровищами» - жена ежегодно устраивала её для своего обожаемого мужа. И похоже, что эти подсказки дают шанс пролить свет на судьбу исчезнувшей.",
+    "view_movies": "fi",
+    "category": [
+      4,
+      13,
+      7
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 21,
+  "fields": {
+    "name": "Гнев человеческий",
+    "description": "Грузовики лос-анджелесской инкассаторской компании Fortico Security часто подвергаются нападениям, и во время очередного ограбления погибают оба охранника. Через некоторое время в компанию устраивается крепкий немногословный британец Патрик Хилл. Он получает от босса прозвище Эйч и, впритык к необходимому минимуму пройдя тесты по фитнесу, стрельбе и вождению, отправляется на первое задание. Вскоре и его грузовик пытаются ограбить вооруженные налётчики, но Эйч в одиночку расправляется с целой бандой и становится героем. Кажется, слава и уважение коллег его совершенно не интересуют, ведь он преследует свои цели.",
+    "view_movies": "fi",
+    "category": [
+      4,
+      5
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 22,
+  "fields": {
+    "name": "Брат 2",
+    "description": "Участвуя в программе на телевидении, Данила Багров встречает своих друзей по службе в Чечне. Одного из них внезапно убивают. Выясняется, что у того были неприятности из-за брата-хоккеиста в Америке. Данила должен разобраться. Он вылетает в Америку и за компанию берёт с собой старшего брата.",
+    "view_movies": "fi",
+    "category": [
+      16,
+      5
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 23,
+  "fields": {
+    "name": "Переводчик",
+    "description": "Афганистан, март 2018 года. Во время спецоперации по поиску оружия талибов отряд сержанта армии США Джона Кинли попадает в засаду. В живых остаются только сам Джон, получивший ранение, и местный переводчик Ахмед, который сотрудничает с американцами. Очнувшись на родине, Кинли не помнит, как ему удалось выжить, но понимает, что именно Ахмед спас ему жизнь, протащив на себе через опасную территорию. Теперь чувство вины не даёт Джону покоя, и он решает вернуться за Ахмедом и его семьёй, которых в Афганистане усиленно ищут талибы.",
+    "view_movies": "fi",
+    "category": [
+      4,
+      5,
+      10,
+      12,
+      13
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 24,
+  "fields": {
+    "name": "Леон",
+    "description": "Профессиональный убийца Леон неожиданно для себя самого решает помочь 12-летней соседке Матильде, семью которой убили коррумпированные полицейские.",
+    "view_movies": "fi",
+    "category": [
+      16,
+      13,
+      4,
+      5
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 25,
+  "fields": {
+    "name": "Операция «Фортуна»: Искусство побеждать",
+    "description": "Суперагент британской разведки Орсон Форчун наслаждался заслуженным отпуском, когда родине срочно понадобились его услуги. Из секретной лаборатории похищено предположительно смертельное оружие, поэтому, собрав команду из лучших оперативников, Орсон выходит на посредника в готовящейся сделке продажи — миллиардера и большого поклонника знаменитостей Грэга Симмондса. А чтобы подобраться к нему, в качестве прикрытия решает использовать известного голливудского актёра Дэнни Франческо.",
+    "view_movies": "fi",
+    "category": [
+      1,
+      5
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 26,
+  "fields": {
+    "name": "Любовь и голуби",
+    "description": "Ликвидируя неисправность лебедки, Василий Кузякин получил травму и путевку на юг. Там он встретил роковую женщину Раису Захаровну и… вернулся Вася с курорта не к себе в деревню, а в дом Раисы Захаровны. Началась для него новая жизнь, в которой было много непонятного и интересного, но не было дома, где остались Надя, дети и голуби.",
+    "view_movies": "fi",
+    "category": [
+      1,
+      6
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 27,
+  "fields": {
+    "name": "Титаник",
+    "description": "В первом и последнем плавании шикарного «Титаника» встречаются двое. Пассажир нижней палубы Джек выиграл билет в карты, а богатая наследница Роза отправляется в Америку, чтобы выйти замуж по расчёту. Чувства молодых людей только успевают расцвести, и даже не классовые различия создадут испытания влюблённым, а айсберг, вставший на пути считавшегося непотопляемым лайнера.",
+    "view_movies": "fi",
+    "category": [
+      13,
+      4,
+      12,
+      6
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 28,
+  "fields": {
+    "name": "Постучись в мою дверь",
+    "description": "Эда живёт вместе со своей тётей и работает в семейном цветочном магазине. Она мечтает уехать на стажировку в Италию, но лишается стипендии, которую местное архитектурное бюро Art Life выделяет для талантливых студентов. Обидевшись, девушка решает отомстить его владельцу, молодому и талантливому архитектору Серкану Болату. Но их знакомство оборачивается неожиданным договором — Эда получит полностью оплаченную поездку в Италию, если 2 месяца будет притворяться девушкой Серкана, чтобы он смог вернуть свою бывшую.",
+    "view_movies": "se",
+    "category": [
+      1,
+      6
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 29,
+  "fields": {
+    "name": "Москва слезам не верит",
+    "description": "Москва, 1950-е годы. Три молодые провинциалки приезжают в Москву в поисках того, что ищут люди во всех столицах мира — любви, счастья и достатка. Антонина выходит замуж, растит детей, любит мужа. Людмиле Москва представляется лотереей, в которой она должна выиграть свое особенное счастье. Катерина же отчаянно влюбляется, но избранник ее оставляет. Однако она не опускает руки, в одиночку растит дочь и к тому же успевает делать блестящую карьеру. В 40 лет судьба дарит ей неожиданную встречу.",
+    "view_movies": "fi",
+    "category": [
+      1,
+      13,
+      6
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 30,
+  "fields": {
+    "name": "Девчата",
+    "description": "В сибирский поселок приехала юная повариха Тося Кислицына — наивная и эксцентричная девчонка. Она сует свой нос во все дела, каждому стремится помочь. Местный красавец Илья на спор заводит с Тосей роман.",
+    "view_movies": "fi",
+    "category": [
+      1,
+      6
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 31,
+  "fields": {
+    "name": "Достать ножи",
+    "description": "На следующее утро после празднования 85-летия известного автора криминальных романов Харлана Тромби виновника торжества находят мёртвым. Налицо — явное самоубийство, но полиция по протоколу опрашивает всех присутствующих в особняке членов семьи, хотя, в этом деле больше заинтересован частный детектив Бенуа Блан. Тем же утром он получил конверт с наличными от неизвестного и заказ на расследование смерти Харлана. Не нужно быть опытным следователем, чтобы понять, что все приукрашивают свои отношения с почившим главой семейства, но Блану достаётся настоящий подарок — медсестра покойного, которая физически не выносит ложь.",
+    "view_movies": "fi",
+    "category": [
+      16,
+      1,
+      13,
+      7
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 32,
+  "fields": {
+    "name": "Вампиры средней полосы",
+    "description": "Смоленск — среднестатистический город средней полосы России. Но не совсем. Много веков тут живут вампиры, которые хоть и позволяют себе охотиться на людей, но всё же свято чтут договор, по которому за каждое убийство нужно отдать хранителям на казнь одного из своих. Когда в березовой роще под Смоленском находят обескровленных парней, их мирная жизнь оказывается под угрозой. Теперь местной вампирской ячейке общества под руководством самого старого вампира деда Славы, он же — Святослав Вернидубович, предстоит в кратчайшие сроки найти нарушителя спокойствия.",
+    "view_movies": "se",
+    "category": [
+      1,
+      9,
+      7
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 33,
+  "fields": {
+    "name": "Фишер",
+    "description": "1986 год. В районе правительственных дач на Рублевском шоссе одного за другим убивают подростков. Интеллигентный следователь Валерий Козырев, его дерзкий напарник из Ростова Евгений Боков и совсем молодая следователь Наталья Добровольская начинают расследование, даже не подозревая, как сильно оно изменит судьбу каждого из них. Единственный свидетель, способный опознать маньяка, — школьник Игорь, родители которого совсем не в восторге от контактов сына с милицией.",
+    "view_movies": "se",
+    "category": [
+      16,
+      4,
+      13,
+      7
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 34,
+  "fields": {
+    "name": "Шерлок",
+    "description": "События разворачиваются в наши дни. Он прошел Афганистан, остался инвалидом. По возвращении в родные края встречается с загадочным, но своеобразным гениальным человеком. Тот в поиске соседа по квартире. Лондон, 2010 год. Происходят необъяснимые убийства. Скотланд-Ярд без понятия, за что хвататься. Существует лишь один человек, который в силах разрешить проблемы и найти ответы на сложные вопросы.",
+    "view_movies": "se",
+    "category": [
+      16,
+      4,
+      13,
+      7
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 35,
+  "fields": {
+    "name": "Внутри убийцы",
+    "description": "Профайлер Зоя Волгина — лучшая в своем деле: сцены преступлений буквально оживают у нее перед глазами. Именно Зою и специального сотрудника Следственного комитета Тимофея Волоха привлекают к новому расследованию: в Петербурге неизвестный душитель бальзамирует тела своих жертв, превращая их в статуи. Его «почерк» Зое знаком — много лет назад она уже сталкивалась с очень похожим человеком.",
+    "view_movies": "se",
+    "category": [
+      4,
+      7
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 36,
+  "fields": {
+    "name": "Мажор в Сочи",
+    "description": "Московские массивные здания и оживлённые дороги Мажор сменит на живописные курортные виды, домик в горах и извилистые серпантины. Туда он перебирается вместе с дочерью Соней, где у них появился свой семейный бизнес — эко-отель. Но ещё до открытия всё идёт наперекосяк. Вначале в гостинице устраивают погром, затем Соколовский наткнётся на местного мажора и перейдёт дорогу сочинскому воротиле, который планирует снести целый жилой квартал, чтобы построить на его месте винодельню.",
+    "view_movies": "fi",
+    "category": [
+      8,
+      1
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 37,
+  "fields": {
+    "name": "Пираты Карибского моря: На краю света",
+    "description": "Новые приключения Джека Воробья и его друзей Уилла Тернера и Элизабет Суонн. На этот раз Уиллу и Элизабет придется объединиться с самим Капитаном Барбоссой для того, чтобы отправиться на край света и спасти своего друга — Джека. Ситуация осложняется тем, что Элизабет попадает к сингапурским пиратам…",
+    "view_movies": "fi",
+    "category": [
+      8,
+      9,
+      5
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 38,
+  "fields": {
+    "name": "Выживший",
+    "description": "Охотник Хью Гласс серьезно ранен на неизведанных просторах американского Дикого Запада. Товарищ Хью по отряду покорителей новых земель Джон Фицжеральд предательски оставляет его умирать в одиночестве. Теперь у Гласса осталось только одно оружие – его сила воли. Он готов бросить вызов первобытной природе, суровой зиме и враждебным племенам индейцев, только чтобы выжить и отомстить Фицжеральду.",
+    "view_movies": "fi",
+    "category": [
+      5,
+      8,
+      13,
+      17,
+      18
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 39,
+  "fields": {
+    "name": "Пираты Карибского моря: На странных берегах",
+    "description": "Капитану Джеку Воробью предстоит столкнуться с женщиной из своего прошлого Анжеликой. Она вынуждает его взойти на корабль «Месть Королевы Анны», которым управляет коварный злодей Черная Борода. И теперь Джек не знает, кого бояться больше — ужасного злодея или же своей давней подруги.",
+    "view_movies": "fi",
+    "category": [
+      8,
+      1,
+      5,
+      9
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 40,
+  "fields": {
+    "name": "Лекарь: Ученик Авиценны",
+    "description": "Англия, XI век. Мать десятилетнего Роба Коула умирает в страшных мучениях: никто не знает ни природы её болезни, ни лекарства против неё. Маленький Роб, потрясенный до глубины души, во что бы то ни стало стремится разгадать эту тайну.\r\n\r\nЕму суждено пройти долгий путь, от Англии до Персии, его учителями становятся сначала обыкновенный шарлатан Барбер, а потом - великий лекарь Авиценна. Мудрый учитель видит в Робе необыкновенный талант к медицине, но советует ему не спешить делать вещи, которые не соответствуют веку. Но Роб ни перед чем не останавливается в своем желании научиться спасать людей от смерти, и над его собственной жизнью нависает угроза, ведь он дважды пошел против предрассудков: использовал для научных исследований тело человека и полюбил женщину, отданную в жены другому.",
+    "view_movies": "fi",
+    "category": [
+      8,
+      12,
+      13
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 41,
+  "fields": {
+    "name": "Игра престолов",
+    "description": "К концу подходит время благоденствия, и лето, длившееся почти десятилетие, угасает. Вокруг средоточия власти Семи королевств, Железного трона, зреет заговор, и в это непростое время король решает искать поддержки у друга юности Эддарда Старка. В мире, где все — от короля до наемника — рвутся к власти, плетут интриги и готовы вонзить нож в спину, есть место и благородству, состраданию и любви. Между тем никто не замечает пробуждение тьмы из легенд далеко на Севере — и лишь Стена защищает живых к югу от нее.",
+    "view_movies": "se",
+    "category": [
+      5,
+      6,
+      8,
+      9,
+      13
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 42,
+  "fields": {
+    "name": "По щучьему велению",
+    "description": "Если ты идешь на рыбалку — будь готов к тому, что вытянешь рыбу своей мечты, волшебную Щуку, которая может исполнить три любых твоих желания. Только Емеля спустил два желания на ветер, а третье решил приберечь. Поэтому, чтобы добиться руки царской дочери Анфисы, придется ему действовать без волшебной силы, самому. А помогать ему будет Щука, которая без своей шкурки предстает обычной девушкой Василисой. Вместе им предстоит найти скатерть-самобранку, встретиться с Котом Баюном, отправиться в мрачное царство Кощея и понять, что настоящее чудо — это быть с тем, кого любишь.",
+    "view_movies": "fi",
+    "category": [
+      8,
+      9,
+      11
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 43,
+  "fields": {
+    "name": "Гарри Поттер и философский камень",
+    "description": "Жизнь десятилетнего Гарри Поттера нельзя назвать сладкой: родители умерли, едва ему исполнился год, а от дяди и тёти, взявших сироту на воспитание, достаются лишь тычки да подзатыльники. Но в одиннадцатый день рождения Гарри всё меняется. Странный гость, неожиданно появившийся на пороге, приносит письмо, из которого мальчик узнаёт, что на самом деле он - волшебник и зачислен в школу магии под названием Хогвартс. А уже через пару недель Гарри будет мчаться в поезде Хогвартс-экспресс навстречу новой жизни, где его ждут невероятные приключения, верные друзья и самое главное — ключ к разгадке тайны смерти его родителей.",
+    "view_movies": "fi",
+    "category": [
+      8,
+      9,
+      11
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 44,
+  "fields": {
+    "name": "Пираты Карибского моря: Проклятие Черной жемчужины",
+    "description": "Жизнь харизматичного авантюриста, капитана Джека Воробья, полная увлекательных приключений, резко меняется, когда его заклятый враг капитан Барбосса похищает корабль Джека Черную Жемчужину, а затем нападает на Порт Ройал и крадет прекрасную дочь губернатора Элизабет Свонн.\r\n\r\nДруг детства Элизабет Уилл Тернер вместе с Джеком возглавляет спасательную экспедицию на самом быстром корабле Британии, чтобы вызволить девушку и заодно отобрать у злодея Черную Жемчужину. Вслед за этой парочкой отправляется амбициозный коммодор Норрингтон, который к тому же числится женихом Элизабет.\r\n\r\nОднако Уилл не знает, что над Барбоссой висит вечное проклятие, при лунном свете превращающее его с командой в живых скелетов. Проклятье будет снято лишь тогда, когда украденное золото Ацтеков будет возвращено пиратами на старое место.",
+    "view_movies": "fi",
+    "category": [
+      8,
+      9,
+      5
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 45,
+  "fields": {
+    "name": "Гарри Поттер и узник Азкабана",
+    "description": "Гарри, Рон и Гермиона возвращаются на третий курс школы чародейства и волшебства Хогвартс. На этот раз они должны раскрыть тайну узника, сбежавшего из тюрьмы Азкабан, чье пребывание на воле создает для Гарри смертельную опасность.",
+    "view_movies": "fi",
+    "category": [
+      8,
+      9,
+      11
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 46,
+  "fields": {
+    "name": "В бой идут одни «старики»",
+    "description": "Эта эскадрилья стала «поющей» - так капитан Титаренко подбирал себе новичков. Его «старикам» было не больше двадцати, но «желторотиков», пополнение из летных училищ ускоренного выпуска, в бой все равно, по возможности, не пускали.\r\n\r\n\r\nИм еще многое предстояло испытать - и жар боев, и радость первой победы над врагом, и величие братства, скрепленного кровью, и первую любовь, и горечь утраты... И настанет день, когда по команде «в бой идут одни старики» бывшие желторотики бросятся к своим самолетам...",
+    "view_movies": "fi",
+    "category": [
+      1,
+      10,
+      13
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 47,
+  "fields": {
+    "name": "Своя война. Шторм в пустыне",
+    "description": "Иван давно вернулся с войны. Но война не отпускает его: он продолжает в нее играть, что уже стоило ему отношений с женой, а теперь может стоить и жизни. Иван отправляется в Сирию под видом иностранного военного корреспондента по имени Джон.",
+    "view_movies": "fi",
+    "category": [
+      10,
+      13,
+      4,
+      12
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 48,
+  "fields": {
+    "name": "Спасти рядового Райана",
+    "description": "Вторая мировая. Капитан Джон Миллер получает тяжелое задание. Вместе с отрядом из восьми человек он должен отправиться в тыл врага на поиски рядового Джеймса Райана, три родных брата которого почти одновременно погибли на полях сражений.\r\n\r\nКомандование приняло решение демобилизовать Райана и отправить его на родину к безутешной матери. Но чтобы найти и спасти солдата, крошечному отряду придется пройти через все круги ада.",
+    "view_movies": "fi",
+    "category": [
+      10,
+      12,
+      5
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 49,
+  "fields": {
+    "name": "Битва за Севастополь",
+    "description": "Любовь под нескончаемым огнем противника, дружба с Элеонорой Рузвельт, выступление на конференции, повлиявшее на исход Второй мировой войны, желание жить и страх потерять любимого человека - справится ли со всем этим хрупкая женщина?\r\n\r\nИстория Людмилы Павличенко – легендарной снайперши. Солдаты шли в бой с ее именем на устах, а враги устроили на нее охоту. На поле битвы она видела смерть и страдания, но самым серьезным испытанием для нее стала любовь, которую у нее могла забрать война.",
+    "view_movies": "fi",
+    "category": [
+      5,
+      10,
+      12,
+      13,
+      17
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 50,
+  "fields": {
+    "name": "Подольские курсанты",
+    "description": "Октябрь 1941 года, Подмосковье. Около трёх с половиной тысяч курсантов подольских артиллерийского и пехотного училищ получают приказ занять оборону на Ильинском рубеже и совместно с регулярными частями 43-й армии сдерживать наступление фашистских захватчиков, пока не подойдёт подкрепление. Погибая, вчерашние мальчишки держат оборону от многократно превышающих сил немцев и на двенадцать дней становятся преградой на пути врага к Москве.",
+    "view_movies": "fi",
+    "category": [
+      10,
+      13,
+      12,
+      5
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 51,
+  "fields": {
+    "name": "Чебурашка",
+    "description": "На небольшой приморский городок обрушивается дождь из апельсинов, а вместе с фруктами с неба падает неизвестный науке мохнатый непоседливый зверёк. Одержимое апельсинами животное оказывается в домике нелюдимого старика-садовника Геннадия, который из вредности решает оставить его жить у себя, так как местная богачка жаждет заполучить необычного зверя для своей избалованной внучки. Также эта коварная женщина, владелица кондитерской фабрики, пытается выведать секрет шоколада у хозяйки маленького магазинчика — дочери Геннадия, много лет обиженной на отца.",
+    "view_movies": "fi",
+    "category": [
+      1,
+      11,
+      9
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 52,
+  "fields": {
+    "name": "Домовой",
+    "description": "В обычном и суетливом городе Москве есть необычный Дом, обросший сотнями тайн и загадок. В этом доме есть странная квартира, в которой еще надолго не задержался ни один жилец...\r\n\r\nИ лишь тогда, когда в эту «милую» квартиру заезжает самостоятельная мама с очаровательной 8-летней дочерью Алиной, новые жильцы узнают, что жилплощадь их – непростая, а живет в ней самый настоящий Домовой. Только вот хранитель очага уже давно обиделся на весь род человеческий и сделает все вообразимые гадости, только бы остаться одному в злополучной квартире. Но всё меняется, когда Домовому бросает вызов злая колдунья…",
+    "view_movies": "fi",
+    "category": [
+      1,
+      11,
+      9
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 53,
+  "fields": {
+    "name": "Королевство полной луны",
+    "description": "60-е годы XX века. Пара влюблённых подростков, живущих на острове в Новой Англии, убегает из-под присмотра взрослых. Сэм Шакаски — бойскаут, сирота, от которого отказались приемные родители, из-за своего непростого характера ставший изгоем среди других бойскаутов, и Сьюзи Бишоп — замкнутая двенадцатилетняя неуравновешенная девочка, живущая мечтами о волшебных мирах. После обнаружения пропажи местный шериф начинает расследование, а вожатый лагеря бойскаутов организует поисковый отряд.",
+    "view_movies": "fi",
+    "category": [
+      1,
+      11,
+      13,
+      6
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 54,
+  "fields": {
+    "name": "Счастье в конверте",
+    "description": "Три удивительные истории о любви и дружбе, о вере в мечту и связи поколений, о том, как не предавать себя и оставаться человеком в любой жизненной ситуации.\r\n\r\nВ век технологий люди привыкли спешить, бежать, зарабатывать, забывая при этом о главном – о себе и своих настоящих желаниях. Нам кажется, что мы станем счастливее как только у нас появится новая машина или высокая зарплата. А все значительно проще – секрет счастья скрыт в душе каждого человека: в умении верить в чудо, дружить, любить, быть отважным, следовать за своей мечтой!",
+    "view_movies": "fi",
+    "category": [
+      11,
+      6
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 55,
+  "fields": {
+    "name": "Мой любимый чемпион",
+    "description": "Лучший друг Саши — конь Джонатан. Только он может разделить с 13-летней девочкой ее радости, потери и надежды. Сашу не понимают одноклассники, а мама считает, что строптивый конь, напоминающий девочке об отце, является обузой для семьи. И только бабушка готова поддержать Сашу в стремлении сохранить лошадь. Для этого юной спортсменке и Джонатану предстоит пройти долгий путь, ведущий к большим победам и новым открытиям.",
+    "view_movies": "fi",
+    "category": [
+      8,
+      11,
+      13
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 56,
+  "fields": {
+    "name": "Гладиатор",
+    "description": "Римская империя. Бесстрашного и благородного генерала Максимуса боготворят солдаты, а старый император Марк Аврелий безгранично доверяет ему и относится как с сыну. Однако опытный воин, готовый сразиться с любым противником в честном бою, оказывается бессильным перед коварными придворными интригами. Коммод, сын Марка Аврелия, убивает отца, который планировал сделать преемником не его, а Максимуса, и захватывает власть. Решив избавиться от опасного соперника, который к тому же отказывается присягнуть ему на верность, Коммод отдаёт приказ убить Максимуса и всю его семью. Чудом выжив, но не сумев спасти близких, Максимус попадает в плен к работорговцу, который продаёт его организатору гладиаторских боёв Проксимо. Так легендарный полководец становится гладиатором. Но вскоре ему представится шанс встретиться со своим смертельным врагом лицом к лицу.",
+    "view_movies": "fi",
+    "category": [
+      13,
+      12,
+      5
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 57,
+  "fields": {
+    "name": "Викинги",
+    "description": "Рассказ об отряде викингов Рагнара. Он восстал, чтобы стать королём племён викингов. Норвежская легенда гласит, что он был прямым потомком Одина, бога войны и воинов.",
+    "view_movies": "se",
+    "category": [
+      5,
+      6,
+      8,
+      10,
+      12,
+      13
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 58,
+  "fields": {
+    "name": "Храброе сердце",
+    "description": "Действие фильма начинается в 1280 году в Шотландии. Это история легендарного национального героя Уильяма Уоллеса, посвятившего себя борьбе с англичанами при короле Эдварде Длинноногом.\r\n\r\nОн рано лишился отца, погибшего от рук англичан, и его забрал к себе дядя Оргайл, который дал ему хорошее образование в Европе. На родину Уильям возвращается уже взрослым человеком, мечтающим завести семью и жить мирной жизнью.\r\n\r\nНо судьба распорядилась иначе. Его невесту убили англичане, и он начал свой крестовый поход за свободу.",
+    "view_movies": "fi",
+    "category": [
+      17,
+      10,
+      12,
+      13
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 59,
+  "fields": {
+    "name": "Высшая мера",
+    "description": "Ярославль, 1974 год. За один день в городе происходят два резонансных преступления. Психически больной физик отрезает голову соседке и приносит её в милицию, а в подвале многоквартирного дома находят тело уголовника, убитого ударом заточки в ухо. Нити этих преступлений ведут к одному человеку — главврачу психиатрической больницы Михаилу Нагорных и его заместителю Ваганову, в больнице которых за последние годы произошло несколько загадочных смертей. Расследует дело бескомпромиссный следователь по особо важным делам прокуратуры Егор Таболин.",
+    "view_movies": "fi",
+    "category": [
+      16,
+      4,
+      12
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 60,
+  "fields": {
+    "name": "Таксист",
+    "description": "В результате военного переворота в декабре 1979 года южнокорейским президентом становится Чон Ду-хван. После расстрела студенческой демонстрации в городе Кванджу местные жители решают массово выступить против режима. Диктатор бросает на подавление восстания военные части.\r\n\r\nВ это время оказавшийся в Токио репортёр германской газеты решает проникнуть в Кванджу, чтобы донести до внешнего мира правду о том, что творится в Корее. Доставить немца в зону боевых действий и обратно должен простой сеульский таксист Ман-соп, который с утра даже не представлял, что скоро ему придется скрываться от военных патрулей.",
+    "view_movies": "fi",
+    "category": [
+      17,
+      12,
+      13
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 61,
+  "fields": {
+    "name": "1+1",
+    "description": "Пострадав в результате несчастного случая, богатый аристократ Филипп нанимает в помощники человека, который менее всего подходит для этой работы, – молодого жителя предместья Дрисса, только что освободившегося из тюрьмы. Несмотря на то, что Филипп прикован к инвалидному креслу, Дриссу удается привнести в размеренную жизнь аристократа дух приключений.",
+    "view_movies": "fi",
+    "category": [
+      1,
+      13
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 62,
+  "fields": {
+    "name": "Брат",
+    "description": "Демобилизовавшись, Данила Багров вернулся в родной городок. Но скучная жизнь российской провинции не устраивала его, и он решился податься в Петербург, где, по слухам, уже несколько лет процветает его старший брат. Данила нашел брата. Но все оказалось не так просто — брат работает наемным убийцей.",
+    "view_movies": "fi",
+    "category": [
+      16,
+      13,
+      5
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 63,
+  "fields": {
+    "name": "Волк с Уолл-стрит",
+    "description": "1987 год. Джордан Белфорт становится брокером в успешном инвестиционном банке. Вскоре банк закрывается после внезапного обвала индекса Доу-Джонса. По совету жены Терезы Джордан устраивается в небольшое заведение, занимающееся мелкими акциями. Его настойчивый стиль общения с клиентами и врождённая харизма быстро даёт свои плоды. Он знакомится с соседом по дому Донни, торговцем, который сразу находит общий язык с Джорданом и решает открыть с ним собственную фирму. В качестве сотрудников они нанимают нескольких друзей Белфорта, его отца Макса и называют компанию «Стрэттон Оукмонт». В свободное от работы время Джордан прожигает жизнь: лавирует от одной вечеринки к другой, вступает в сексуальные отношения с проститутками, употребляет множество наркотических препаратов, в том числе кокаин и кваалюд. Однажды наступает момент, когда быстрым обогащением Белфорта начинает интересоваться агент ФБР...",
+    "view_movies": "fi",
+    "category": [
+      16,
+      1,
+      13,
+      17
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 64,
+  "fields": {
+    "name": "Триггер",
+    "description": "Психолог Артём Стрелецкий — сторонник шоковой терапии в лечении больных. Он считает, что единственный способ для человека решить свои проблемы — это понять себя и перестать себе врать. Если большинство психологов нянчатся с клиентами, по полгода выслушивают жалобы на жизнь, сочувствуют и получают при этом немалые деньги за цикл сеансов, то Артём постоянно провоцирует клиентов: оскорбляет их, смеется над ними, намеренно выталкивает из зоны комфорта. Практика Артема процветает, пока один из его пациентов не кончает жизнь самоубийством.",
+    "view_movies": "se",
+    "category": [
+      13
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 65,
+  "fields": {
+    "name": "Побег из Шоушенка",
+    "description": "Бухгалтер Энди Дюфрейн обвинён в убийстве собственной жены и её любовника. Оказавшись в тюрьме под названием Шоушенк, он сталкивается с жестокостью и беззаконием, царящими по обе стороны решётки. Каждый, кто попадает в эти стены, становится их рабом до конца жизни. Но Энди, обладающий живым умом и доброй душой, находит подход как к заключённым, так и к охранникам, добиваясь их особого к себе расположения.",
+    "view_movies": "fi",
+    "category": [
+      13
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 66,
+  "fields": {
+    "name": "Гарри Поттер 20 лет спустя: Возвращение в Хогвартс",
+    "description": "Дэниэл Рэдклифф, Руперт Гринт и Эмма Уотсон встретятся со своими коллегами и впервые за долгие годы окажутся в стенах Хогвартса.",
+    "view_movies": "fi",
+    "category": [
+      11,
+      14
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 67,
+  "fields": {
+    "name": "Романовы",
+    "description": "Уникальный по форме проект, приуроченным к 400-летию воцарения на Руси дома Романовых, который сочетает в себе элементы и игрового, и документального кино, информационной графики и анимации. История расскажет о том, что представляло собой русское самодержавие как система управления, каковы ее недостатки и преимущества, какую роль монархи дома Романовых играли в событиях российской и мировой истории. При помощи графики создается максимально исторически-достоверная картина, которая погружает зрителя в атмосферу и ощущение времени и позволяет увидеть царя глазами современников.",
+    "view_movies": "fi",
+    "category": [
+      12,
+      14
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 68,
+  "fields": {
+    "name": "Великая война",
+    "description": "Проект «Великая война» рассказывает о наиболее значимых событиях и сражениях Великой Отечественной войны.",
+    "view_movies": "se",
+    "category": [
+      10,
+      12,
+      14
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 69,
+  "fields": {
+    "name": "Сахар",
+    "description": "Дэймон Гамо проводит эксперимент, в ходе которого начинает питаться исключительно едой с маркировкой healthy (полезно для здоровья), чтобы раскрыть правду о сахаре, который содержится в соках, обезжиренных йогуртах, мюсли, протеиновых батончиках и другой «полезной» еде.",
+    "view_movies": "fi",
+    "category": [
+      14
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 70,
+  "fields": {
+    "name": "Огненный лис",
+    "description": "Ветер родился самым слабым лисенком в семье. По воле случая именно он выжил при нападении медведя. Ему удалось пережить свою первую зиму и завоевать любовь красавицы Лавы. Но весной возвращаются они — медведи. Ужас перед старым врагом приводит Ветра к роковой ошибке. Теперь ради спасения своих детей и возвращения Лавы, он должен победить свой страх и самого грозного хищника Камчатки.",
+    "view_movies": "fi",
+    "category": [
+      8,
+      11,
+      14
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 71,
+  "fields": {
+    "name": "Джентльмены",
+    "description": "Один ушлый американец ещё со студенческих лет приторговывал наркотиками, а теперь придумал схему нелегального обогащения с использованием поместий обедневшей английской аристократии и очень неплохо на этом разбогател. Другой пронырливый журналист приходит к Рэю, правой руке американца, и предлагает тому купить киносценарий, в котором подробно описаны преступления его босса при участии других представителей лондонского криминального мира — партнёра-еврея, китайской диаспоры, чернокожих спортсменов и даже русского олигарха.",
+    "view_movies": "fi",
+    "category": [
+      16,
+      1,
+      5
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 72,
+  "fields": {
+    "name": "Легенда №17",
+    "description": "Близнецы Реджи и Ронни Крэй — культовые фигуры преступного мира Великобритании 1960-х. Братья возглавляли самую влиятельную бандитскую группировку Ист-Энда. В их послужном списке были вооруженные грабежи, рэкет, поджоги, покушения, убийства и собственный ночной клуб, куда доезжали даже голливудские знаменитости. Среди их жертв — криминальные авторитеты Джек МакВитти и Джордж Корнелл.",
+    "view_movies": "fi",
+    "category": [
+      16,
+      4,
+      13
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 73,
+  "fields": {
+    "name": "Криминальное чтиво",
+    "description": "Двое бандитов Винсент Вега и Джулс Винфилд ведут философские беседы в перерывах между разборками и решением проблем с должниками криминального босса Марселласа Уоллеса.\r\n\r\nВ первой истории Винсент проводит незабываемый вечер с женой Марселласа Мией. Во второй Марселлас покупает боксёра Бутча Кулиджа, чтобы тот сдал бой. В третьей истории Винсент и Джулс по нелепой случайности попадают в неприятности.",
+    "view_movies": "fi",
+    "category": [
+      16,
+      13
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 74,
+  "fields": {
+    "name": "Поймай меня, если сможешь",
+    "description": "Фрэнк Эбегнейл успел поработать врачом, адвокатом и пилотом на пассажирской авиалинии – и все это до достижения полного совершеннолетия в 21 год. Мастер в обмане и жульничестве, он также обладал искусством подделки документов, что в конечном счете принесло ему миллионы долларов, которые он получил по фальшивым чекам.\r\n\r\nАгент ФБР Карл Хэнрэтти отдал бы все, чтобы схватить Фрэнка и привлечь к ответственности за свои деяния, но Фрэнк всегда опережает его на шаг, заставляя продолжать погоню.",
+    "view_movies": "fi",
+    "category": [
+      16,
+      1,
+      17
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 75,
+  "fields": {
+    "name": "Иллюзия обмана",
+    "description": "Команда лучших иллюзионистов мира проворачивает дерзкие ограбления прямо во время своих шоу, играя в кошки-мышки с агентами ФБР.",
+    "view_movies": "fi",
+    "category": [
+      16,
+      4,
+      7
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 76,
+  "fields": {
+    "name": "Зеленая книга",
+    "description": "1960-е годы. После закрытия нью-йоркского ночного клуба на ремонт вышибала Тони по прозвищу Болтун ищет подработку на пару месяцев. Как раз в это время Дон Ширли — утонченный светский лев, богатый и талантливый чернокожий музыкант, исполняющий классическую музыку — собирается в турне по южным штатам, где ещё сильны расистские убеждения и царит сегрегация. Он нанимает Тони в качестве водителя, телохранителя и человека, способного решать текущие проблемы. У этих двоих так мало общего, и эта поездка навсегда изменит жизнь обоих.",
+    "view_movies": "fi",
+    "category": [
+      1,
+      13,
+      17
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 77,
+  "fields": {
+    "name": "Ford против Ferrari",
+    "description": "В начале 1960-х Генри Форд II принимает решение улучшить имидж компании и сменить курс на производство более модных автомобилей. После неудавшейся попытки купить практически банкрота Ferrari американцы решают бросить вызов итальянским конкурентам на трассе и выиграть престижную гонку 24 часа Ле-Мана. Чтобы создать подходящую машину, компания нанимает автоконструктора Кэррола Шэлби, а тот отказывается работать без выдающегося, но, как считается, трудного в общении гонщика Кена Майлза. Вместе они принимаются за разработку впоследствии знаменитого спорткара Ford GT40.",
+    "view_movies": "fi",
+    "category": [
+      17,
+      13,
+      5
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 78,
+  "fields": {
+    "name": "Игры разума",
+    "description": "От всемирной известности до греховных глубин — все это познал на своей шкуре Джон Форбс Нэш-младший. Математический гений, он на заре своей карьеры сделал титаническую работу в области теории игр, которая перевернула этот раздел математики и практически принесла ему международную известность.\r\n\r\nОднако буквально в то же время заносчивый и пользующийся успехом у женщин Нэш получает удар судьбы, который переворачивает уже его собственную жизнь.",
+    "view_movies": "fi",
+    "category": [
+      17,
+      13,
+      6
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 79,
+  "fields": {
+    "name": "Богемская рапсодия",
+    "description": "Чествование группы Queen, их музыки и их выдающегося вокалиста Фредди Меркьюри, который бросил вызов стереотипам и победил условности, чтобы стать одним из самых любимых артистов на планете. Фильм прослеживает головокружительный путь группы к успеху благодаря их культовым песням и революционному звуку, практически распад коллектива, поскольку образ жизни Меркьюри выходит из-под контроля, и их триумфальное воссоединение накануне концерта Live Aid, ставшим одним из величайших выступлений в истории рок-музыки.",
+    "view_movies": "fi",
+    "category": [
+      17,
+      13
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 80,
+  "fields": {
+    "name": "Джанго освобожденный",
+    "description": "Шульц — эксцентричный охотник за головами, который выслеживает и отстреливает самых опасных преступников. Он освобождает раба по имени Джанго, поскольку тот может помочь ему в поисках трёх бандитов. Джанго знает этих парней в лицо, ведь у него с ними свои счёты.",
+    "view_movies": "fi",
+    "category": [
+      1,
+      13,
+      18,
+      5
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 81,
+  "fields": {
+    "name": "Омерзительная восьмерка",
+    "description": "США после Гражданской войны. Легендарный охотник за головами Джон Рут по кличке Вешатель конвоирует заключенную. По пути к ним прибиваются еще несколько путешественников. Снежная буря вынуждает компанию искать укрытие в лавке на отшибе, где уже расположилось весьма пёстрое общество: генерал конфедератов, мексиканец, ковбой… И один из них — не тот, за кого себя выдает.",
+    "view_movies": "fi",
+    "category": [
+      4,
+      7,
+      13,
+      16,
+      18
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 82,
+  "fields": {
+    "name": "Железная хватка",
+    "description": "В этом фильме рассказывается история 14-летней девочки, стареющего судебного пристава Рустера Когберна и ещё одного законника. Вместе они идут по следам убийцы отца девочки, которые ведут во враждебную индейскую территорию.",
+    "view_movies": "fi",
+    "category": [
+      8,
+      18,
+      13
+    ]
+  }
+},
+{
+  "model": "content.movie",
+  "pk": 83,
+  "fields": {
+    "name": "Хороший, плохой, злой",
+    "description": "Разгар Гражданской войны, Дикий Запад. По воле судьбы трое мужчин вынуждены объединить усилия в поисках украденного золота. Но совместная работа — не самое подходящее занятие для таких отъявленных бандитов. Компаньоны вскоре понимают, что в их дерзком и опасном путешествии по разоренной войной стране самое важное — никому не доверять и держать пистолет наготове.",
+    "view_movies": "fi",
+    "category": [
+      16,
+      18,
+      5
+    ]
+  }
+}
+]

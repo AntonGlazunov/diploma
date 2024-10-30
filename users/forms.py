@@ -113,12 +113,6 @@ class UserAuthenticationForm(StyleFormMixin, AuthenticationForm):
         return super().clean()
 
 
-class UserModerForm(StyleFormMixin, forms.ModelForm):
-    class Meta:
-        model = User
-        fields = ('is_block',)
-
-
 class UserPreferencesForm(StyleFormMixin, forms.ModelForm):
     class Meta:
         model = User

@@ -108,6 +108,8 @@ class UserAuthenticationForm(StyleFormMixin, AuthenticationForm):
     def clean(self):
         username = self.cleaned_data.get('username')
         user_ = User.objects.get(email=username)
+        if user_ is None:
+            raise forms.ValidationError('Введите верный email')
         if user_.is_block:
             raise forms.ValidationError('Пользователь заблокирован')
         return super().clean()

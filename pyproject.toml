@@ -16,6 +16,7 @@ pytils = "^0.4.1"
 networkx = "^3.4.2"
 matplotlib = "^3.9.2"
 scikit-learn = "^1.5.2"
+pandas = "^2.2.3"
 
 
 

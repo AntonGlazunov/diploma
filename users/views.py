@@ -123,3 +123,4 @@ class PreferencesView(UpdateView):
 
 class UserLoginView(LoginView):
     form_class = UserAuthenticationForm
+    success_url = reverse_lazy('content:recommended_list')

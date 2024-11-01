@@ -1,10 +1,12 @@
 import networkx as nx
 import json
+
+from django.shortcuts import render
 from django.views.generic import ListView, DetailView
 
 from config.settings import GRAPH
 from content.models import Movie
-from content.services import recommended_movies
+from content.services import recommended_movies, statistics_for_user
 
 
 class ContentListView(ListView):
@@ -38,3 +40,13 @@ class RecommendedMoviesListView(ListView):
         context_data['object_list'] = recommended_movies(self.request.user)
         return context_data
 
+
+def statistics(request):
+    count_user_views, most_popular, count_recommended_movie, neighbor = statistics_for_user(request.user)
+    context = {
+        'count_user_views': count_user_views,
+        'most_popular': most_popular,
+        'count_recommended_movie': count_recommended_movie,
+        'neighbor': neighbor.email
+    }
+    return render(request, 'content/statistics.html', context)

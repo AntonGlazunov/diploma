@@ -23,6 +23,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('content.urls', namespace='content')),
     path('users/', include('users.urls', namespace='users')),
+    path('users_api/', include('users_api.urls', namespace='users_api')),
+    path('content_api/', include('content_api.urls', namespace='content_api')),
 ]
 
 if settings.DEBUG:

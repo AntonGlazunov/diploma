@@ -1,0 +1,20 @@
+{% extends 'content/base.html' %}
+
+{% block content %}
+{% if user.is_authenticated %}
+<div class="col-12">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Колличество просмотренных фильмов: {{ count_user_views }}</li>
+                    <li class="list-group-item">Самый популярный фильм из рекомендаций: {{ most_popular }}</li>
+                    <li class="list-group-item">Колличество рекомендованых фильмов: {{ count_recommended_movie }}</li>
+                    <li class="list-group-item">Самый похожий на вас пользователь: {{ neighbor }}</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
+{% endblock %}

@@ -3,6 +3,7 @@ from config.settings import GRAPH
 import random
 
 from content.models import Movie
+from users.models import User
 
 nodes = len(GRAPH.nodes())
 
@@ -205,7 +206,19 @@ def recommended_movies(user):
     return context_list
 
 
+def statistics_for_user(user):
+    user_views = list(GRAPH[user.pk])
+    count_user_views = len(user_views)
+    count_view = 0
+    neighbor = User.objects.get(pk=list(knn(user.pk))[0])
+    most_popular = ''
+    for view in user_views:
+        if int(GRAPH.in_degree(view)) > count_view:
+            count_view = int(GRAPH.in_degree(view))
+            most_popular = view
+    count_recommended_movie = len(recommended_movies(user))
 
+    return count_user_views, most_popular, count_recommended_movie, neighbor
 
 
 

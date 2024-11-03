@@ -1,6 +1,8 @@
 import networkx as nx
 import json
 
+from django.contrib.auth.decorators import login_required
+from django.contrib.auth.mixins import LoginRequiredMixin
 from django.shortcuts import render
 from django.views.generic import ListView, DetailView
 
@@ -9,11 +11,11 @@ from content.models import Movie
 from content.services import recommended_movies, statistics_for_user
 
 
-class ContentListView(ListView):
+class ContentListView(LoginRequiredMixin, ListView):
     model = Movie
 
 
-class ContentDetailView(DetailView):
+class ContentDetailView(LoginRequiredMixin, DetailView):
     model = Movie
 
     def get_object(self, queryset=None):
@@ -32,7 +34,7 @@ class ContentDetailView(DetailView):
         return context_data
 
 
-class RecommendedMoviesListView(ListView):
+class RecommendedMoviesListView(LoginRequiredMixin, ListView):
     model = Movie
 
     def get_context_data(self, **kwargs):
@@ -40,7 +42,7 @@ class RecommendedMoviesListView(ListView):
         context_data['object_list'] = recommended_movies(self.request.user)
         return context_data
 
-
+@login_required
 def statistics(request):
     count_user_views, most_popular, count_recommended_movie, neighbor = statistics_for_user(request.user)
     context = {

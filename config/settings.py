@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'rest_framework_simplejwt',
     'rest_framework',
     'corsheaders',
+    'drf_spectacular',
 
     'users',
     'content',
@@ -181,6 +182,7 @@ REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': [
         'rest_framework.permissions.AllowAny',
     ],
+    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
 }
 
 SIMPLE_JWT = {
@@ -197,3 +199,10 @@ except FileNotFoundError:
 
 
 DEFAULT_CHARSET='utf-8'
+
+SPECTACULAR_SETTINGS = {
+    'TITLE': 'Diploma',
+    'DESCRIPTION': 'Project for skypro university python',
+    'VERSION': '1.0.0',
+    'SERVE_INCLUDE_SCHEMA': False,
+}

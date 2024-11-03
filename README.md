@@ -36,6 +36,10 @@ python manage.py csu
 
 python manage.py aut
 
-Команда для запуска проекта:
+Команда для запуска сервера:
 
 python manage.py runserver
+
+команда для запуска проекта на чистую базу данных (остальные команды можно вводить в процессе работы сервера):
+
+python manage.py migrate && python manage.py runserver

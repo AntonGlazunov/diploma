@@ -9,7 +9,7 @@ from django.utils.http import urlsafe_base64_encode, urlsafe_base64_decode
 from django.views import View
 from django.views.generic import CreateView, UpdateView, ListView
 
-from config.settings import GRAPH
+from config.settings import GRAPH, EMAIL_HOST_USER
 from users.forms import UserRegisterForm, UserProfileForm, UserForgotPasswordForm, UserAuthenticationForm, UserPreferencesForm
 from users.models import User
 
@@ -30,7 +30,7 @@ class RegisterView(CreateView):
         send_mail(
             'Подтверждение адреса электронной почты',
             f'Для подтверждения регистрации пройдите по ссылке {activation_url}',
-            'skyproglazunov@yandex.ru',
+            EMAIL_HOST_USER,
             [user.email],  # Это поле "Кому" (можно указать список адресов)
             fail_silently=False,  # Сообщать об ошибках («молчать ли об ошибках?»)
         )

@@ -17,6 +17,8 @@ def encoding_graph():
 
 def get_graph():
     index_graph = nx.Graph()
+    for node in GRAPH.nodes():
+        index_graph.add_node(node)
     for edge in GRAPH.edges():
         index_graph.add_edge(dict_graph_index[edge[0]], dict_graph_index[edge[1]])
     dict_graph = nx.convert.to_dict_of_lists(index_graph)
@@ -65,44 +67,49 @@ def from_distance(graph, node, time=10, samples=20):
     '''Список для суммы порядковых номеров шагов при достижении'''
     used = [0] * nodes
 
-    '''Совершение блужданий'''
-    for iter in range(samples):
-        u = node
+    if not graph[node]:
+        for i in range(nodes):
+            from_dist[i] = time * samples
+    else:
 
-        '''Список вершин, посещенных в блуждании'''
-        visited_nodes = []
+        '''Совершение блужданий'''
+        for iter in range(samples):
+            u = node
 
-        for step in range(time):
-            '''Выбор случайной вершины из числа соседних'''
-            next_node = random.choice(graph[u])
+            '''Список вершин, посещенных в блуждании'''
+            visited_nodes = []
 
-            '''Проверка наличия вершины в списке посещенных'''
-            if next_node not in visited_nodes:
-                '''Если вершина не посещена'''
+            for step in range(time):
+                '''Выбор случайной вершины из числа соседних'''
+                next_node = random.choice(graph[u])
 
-                '''Увеличение значения суммы шагов для текщей вершины'''
-                used[next_node] += step + 1
+                '''Проверка наличия вершины в списке посещенных'''
+                if next_node not in visited_nodes:
+                    '''Если вершина не посещена'''
 
-                '''Увеличение значения в списке для фиксации количества
-                   блужданий, в которых была достигнута вершина'''
-                ach_times[next_node] += 1
+                    '''Увеличение значения суммы шагов для текщей вершины'''
+                    used[next_node] += step + 1
 
-                '''Добавление вершины в список посещенных
-                   вершин в текущем блуждании'''
-                visited_nodes.append(next_node)
+                    '''Увеличение значения в списке для фиксации количества
+                       блужданий, в которых была достигнута вершина'''
+                    ach_times[next_node] += 1
 
-            u = next_node
+                    '''Добавление вершины в список посещенных
+                       вершин в текущем блуждании'''
+                    visited_nodes.append(next_node)
 
-    '''Для каждой вершины считаем количество блужданий, в которые она не была посещена'''
-    plus_to_used = [(samples - el) * time for el in ach_times]
+                u = next_node
 
-    '''Вычисляем среднее количество шагов для каждой вершины'''
-    from_dist = [el / samples for el in list(map(sum, zip(used, plus_to_used)))]
+        '''Для каждой вершины считаем количество блужданий, в которые она не была посещена'''
+        plus_to_used = [(samples - el) * time for el in ach_times]
 
-    '''Для исследуемой вершины и ее соседей проставляем максимальное количество шагов'''
-    from_dist[node] = time * samples
-    for neigh in graph[node]:
-        from_dist[neigh] = time * samples
+        '''Вычисляем среднее количество шагов для каждой вершины'''
+        from_dist = [el / samples for el in list(map(sum, zip(used, plus_to_used)))]
+
+        '''Для исследуемой вершины и ее соседей проставляем максимальное количество шагов'''
+        from_dist[node] = time * samples
+        for neigh in graph[node]:
+            from_dist[neigh] = time * samples
 
     return from_dist
 
@@ -144,10 +151,15 @@ def to_distance(graph, node, time=10):
 def normalize_list(lst, reverse=False):
     min_val = min(lst)
     max_val = max(lst)
-    if reverse:
-            normalized_list = [1 - (x - min_val) / (max_val - min_val) for x in lst]
+    if max_val == 0:
+        normalized_list = [1] * nodes
+    elif (max_val - min_val) == 0:
+        normalized_list = [0] * nodes
     else:
-        normalized_list = [(x - min_val) / (max_val - min_val) for x in lst]
+        if reverse:
+                normalized_list = [1 - (x - min_val) / (max_val - min_val) for x in lst]
+        else:
+            normalized_list = [(x - min_val) / (max_val - min_val) for x in lst]
 
     return normalized_list
 
@@ -168,7 +180,7 @@ def knn(user):
     comb_ans = {}
     for ind, el in enumerate(ca):
         comb_ans[encoding_graph()[ind]] = el
-    comb_ans_sorted = dict(sorted(comb_ans.items(), key=lambda x: x[1], reverse=False)[:5])
+    comb_ans_sorted = dict(sorted(comb_ans.items(), key=lambda x: x[1], reverse=False)[:3])
     return comb_ans_sorted
 
 def recommended_list(user):
